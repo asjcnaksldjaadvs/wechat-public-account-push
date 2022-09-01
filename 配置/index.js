@@ -4,13 +4,14 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wxd98ea4d925b78a6c",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "3c573afc1fca06f587ec2b503232b370",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "yHx8C_UM1onlIo7XpHvPjYJES8Yb-L204J6-hf7IQr0
+",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -24,10 +25,10 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '宝贝', id: "oeIO45mz4UUHnsv0RPIpCtvbwtSc"}, 
+      {name: '宝贝', id: "oeIO45n-MGhXUOo38YDLbWletxm8"}，
+       
+       
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -41,9 +42,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "广西",
     // 所在城市
-    CITY: "惠州",
+    CITY: "南宁",
 
     /** 重要节日相关 */
 
@@ -54,10 +55,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "生日", "name": "宝贝", "year": "2004", "date": "03-27"},
+     
+      {"type": "生日", "name": "我", "year": "2004", "date": "04-08"},
+      
     ],
 
     /**
@@ -75,14 +76,8 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
-      // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
-      // sakana日
-      // {"keyword": "sakana_day", date: "2022-01-06"},
-      // ... 
+      {"keyword": "love_day", date: "2022-03-04"},
+     
     ],
 
     /** 插槽 */
